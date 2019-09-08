@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<link rel = "stylesheet" href = "index.css" type = "text/css">
+		<script src = "nui://game/ui/jquery.js" type = "text/javascript"></script>
+	</head>
+	<body>
+		<div id = "container" class = "div1">
+			<img src="laptop.png" alt="Laptop" class = "centered">
+			<table class = "centered">
+			  <tr>
+			    <th>tunerchip.exe</th>
+			  </tr>
+			  <tr>
+			    <td>
+			    	Boost<br>Normal | High<br><input type="range" min="0" max="10" value="5" class="slider" id="boost">
+					<br><br>Anti-roll Bar Force<br>Low | High<br><input type="range" min="0" max="10" value="5" class="slider" id="fuel">
+			        <br><br>Gear Change<br>Normal | Faster<br><input type="range" min="0" max="10" value="5" class="slider" id="gear">
+			        <br><br>Braking<br>Rear | Front<br><input type="range" min="0" max="10" value="5" class="slider" id="braking">
+			        <br><br>Drive Train<br>Rear | Front<br><input type="range" min="0" max="10" value="5" class="slider" id="drive">
+			        <br><br><button id="save" type="grbutton">SAVE</button>&emsp;<button id="default" type="grbutton">DEFAULT</button>&emsp;<button id="sport" type="grbutton">SPORT</button>
+				</td>
+			  </tr>
+			</table>
+		</div>
+		<script src = "./index.js" type = "text/javascript"></script>
+	</body>
+</html>
